@@ -21,7 +21,6 @@ def part1():
             di, dj = next(dirs)
             continue
         i, j = ci, cj
-        area[i][j] = "X"
         seen.add((i, j))
     print(len(seen))
 
